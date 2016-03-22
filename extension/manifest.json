@@ -10,5 +10,7 @@
     "all_frames": true,
     "matches": ["https://quiz-html-vk.ereality.org/*"],
     "js": ["viktorina-auto.js"]
-  }]
+  }],
+
+  "web_accessible_resources": ["inject.js"]
 }

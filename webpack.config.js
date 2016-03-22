@@ -1,8 +1,11 @@
 module.exports = {
-  entry: "./source/index.coffee",
+  entry: {
+    "viktorina-auto": "./source/index-content.coffee",
+    "inject": "./source/index-inject.coffee"
+  },
   output: {
     path: "./extension",
-    filename: "viktorina-auto.js"
+    filename: "[name].js"
   },
   module: {
     loaders: [
